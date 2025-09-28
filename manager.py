@@ -13,7 +13,7 @@ class Manager(Tk):
         self.container = Frame(self,bg="#24508A")
         self.container.pack(fill = "both",expand=True)
         
-        titulo = tk.Label(self,text="© 2025 Universidad Técnica de Oruro - Ingeniería de Sistemas",bg="#24508A",font="Verdana 10",anchor="center")
+        titulo = tk.Label(self,text="© 2025 Universidad Técnica de Oruro - Ingeniería de Sistemas\nQuirquinchos ",bg="#24508A",font="Verdana 10",anchor="center")
         titulo.place(x=5,y=555,width=790,height=40)
         
         self.frames = {
